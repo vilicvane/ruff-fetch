@@ -5,7 +5,7 @@ GitHub <https://github.com/vilic/ruff-fetch>
 ## Install
 
 ```sh
-rap install promise
+rap install fetch
 ```
 
 ## Usage
