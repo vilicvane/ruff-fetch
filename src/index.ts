@@ -6,6 +6,8 @@
  * MIT License
  */
 
+import 'promise';
+
 import * as HTTP from 'http';
 import * as URL from 'url';
 
