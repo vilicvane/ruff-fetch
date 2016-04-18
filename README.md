@@ -15,7 +15,7 @@ Here's a simple example:
 ```js
 var fetch = require('fetch');
 
-fetch('http://baidu.com')
+fetch('http://vane.life')
     .then(function (response) {
         return response.text();
     })
