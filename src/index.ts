@@ -66,7 +66,6 @@ export default function fetch(url: string, {
 
 export class Response {
     private _res: HTTP.IncomingMessage;
-    private _bodyUsed = false;
     private _headers: HashTable<string>;
 
     private _bufferPromise: Promise<Buffer>;
