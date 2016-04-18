@@ -16,8 +16,12 @@ Here's a simple example:
 var fetch = require('fetch');
 
 fetch('http://baidu.com')
-    .then(response => response.text())
-    .then(text => console.log(text));
+    .then(function (response) {
+        return response.text();
+    })
+    .then(function (text) {
+        console.log(text);
+    });
 ```
 
 Please refer to source code for supported APIs.
