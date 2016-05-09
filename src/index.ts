@@ -106,6 +106,10 @@ export class Response {
         return this._res.statusMessage;
     }
 
+    get headers(): HashTable<string> {
+        return this._headers;
+    }
+
     get bodyUsed(): boolean {
         return !!this._bufferPromise;
     }
